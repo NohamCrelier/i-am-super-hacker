@@ -1,0 +1,63 @@
+        body {
+            font-family: system-ui;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(pink, orange);
+        }
+        header {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1 {
+            font-size: 8vw;
+        }
+        h2 {
+            font-size: 5vw;
+        }
+
+        p {
+            font-size: 3vw;
+        }
+
+        a {
+            color: blue;
+        }
+        .projets {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+            margin: 50px;
+            
+        }
+        .liens {
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 15px;
+            font-size: 2vw;
+
+        }
+        .liste-projets {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #liste-projets {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .boutons {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
